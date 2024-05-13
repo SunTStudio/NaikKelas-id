@@ -62,3 +62,25 @@
     position: absolute;
     top: 73%;
 }
+
+#promo{
+    margin-top: 15rem;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#promoCard{
+    height: 50vh;
+    width: 60vw;
+    background-color: rgb(250, 58, 58);
+}
+
+#img-promo{
+    position: absolute;
+    height: 70vh;
+    object-fit: cover;
+    bottom: 37.5%;
+    right: 20%;
+    filter: drop-shadow(1px 1px 5px black);
+}
