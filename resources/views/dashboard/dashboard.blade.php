@@ -51,8 +51,8 @@
                 <div class="row">
                     <div class="col-6 d-flex align-items-center" >
                         <div class="d-block animate__animated animate__fadeInLeft" id="textHeader">
-                            <p class="fs-1 fw-medium" style="color: #0B7077;">Tingkatkan Ilmu,<br>Tingkatkan Karier,<br><span class="fw-bold" style="font-size: 3rem">NaikKelas.id</span> - <br>Tempatnya Belajar Lebih, Berprestasi Lebih!</p>
-                            <a href="#course" class="btn btn-primary fw-medium shadow p-3">Jelajahi Kelas</a>
+                            <p class=" fw-medium" style="color: #0B7077;" id="textHeaderP">Tingkatkan Ilmu,<br>Tingkatkan Karier,<br><span class="fw-bold" id="textHeaderSpan">NaikKelas.id</span> - <br>Tempatnya Belajar Lebih,<br>Berprestasi Lebih!</p>
+                            <a href="#course" class="btn btn-primary fw-medium shadow p-2" id="textHeaderBtn">Jelajahi Kelas</a>
                         </div>
                     </div>
                     <div class="col-6 animate__animated animate__fadeInUp" id="imgHeader">
@@ -66,16 +66,16 @@
         <div class="container pt-5">
             <p class="h4 fw-bold text-center p-2 text-secondary" data-aos="fade-zoom-in" data-aos-duration="1000">SEGERA DAFTAR KELAS KAMI</p>
             <div class="text-center p-3 text-secondary" id="caregori-course">
-                <a href="#course" class="btn btn-white p-1 ps-4 pe-4 border shadow border-secondary ms-3 fw-medium" data-aos="zoom-in-up" data-aos-duration="1000">Web Development</a>
-                <a href="#course" class="btn btn-white p-1 ps-4 pe-4 border shadow border-secondary ms-3 fw-medium" data-aos="zoom-in-up" data-aos-duration="1000">Desain Grafis</a>
-                <a href="#course" class="btn btn-white p-1 ps-4 pe-4 border shadow border-secondary ms-3 fw-medium" data-aos="zoom-in-up" data-aos-duration="1000">Office Spesialis</a>
+                <a href="#course" class="btn btn-white p-1 mb-3 ps-4 pe-4 border shadow border-secondary ms-3 fw-medium" data-aos="zoom-in-up" data-aos-duration="1000">Web Development</a>
+                <a href="#course" class="btn btn-white p-1 mb-3 ps-4 pe-4 border shadow border-secondary ms-3 fw-medium" data-aos="zoom-in-up" data-aos-duration="1000">Desain Grafis</a>
+                <a href="#course" class="btn btn-white p-1 mb-3 ps-4 pe-4 border shadow border-secondary ms-3 fw-medium" data-aos="zoom-in-up" data-aos-duration="1000">Office Spesialis</a>
             </div>
-            <div class="row mt-2" id="card-course">
-                <div class="col-4">
+            <div class="row mt-2 p-5" id="card-course">
+                <div class="col-lg-4 mb-3">
                     <div class="card shadow " data-aos="fade-up" data-aos-duration="1000">
                         <img src="https://miro.medium.com/v2/resize:fit:1358/1*SoJOoRqbFp9fvNILpl4JNw.jpeg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                            <p class="fw-bold fs-6 card-title">FullStack Laravel</p>
+                            <p class="fw-bold fs-5 card-title">FullStack Laravel</p>
                             <small class="card-text">Pelajari Fundamentals hingga Advanced Development dalam satu paket lengkap untuk menjadi ahli pengembang web dengan framework Laravel.</small>
                             <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                                 <a href="#" class="text-primary fw-bold fs-5">Rp 600.000,-</a>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 mb-3">
                     <div class="card shadow" data-aos="fade-up" data-aos-duration="1000">
                         <img src="https://stackdiary.com/wp-content/uploads/2022/04/The-Most-Popular-Node.js-Frameworks-3.png" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
@@ -97,12 +97,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 mb-3">
                     <div class="card shadow" data-aos="fade-up" data-aos-duration="1000">
                         <img src="https://media.licdn.com/dms/image/D4D12AQF26-NZ279EaA/article-cover_image-shrink_600_2000/0/1688018102545?e=2147483647&v=beta&t=Q9aUSt_UHzSqZYyDycri3s2kqVDlPc-YM0ZzlH2yfYc" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <p class="fw-bold fs-5 card-title">FullStack React Js</p>
-                            <small class="card-text">Kelas Fullstack React.js: Mendalami Pembangunan Aplikasi Web yang Interaktif dan Responsif dengan React.js. Pelajari untuk Membuat UI yang Menarik dan Dinamis.</small>
+                            <small class="card-text"> Mendalami Pembangunan Web yang Interaktif dan Responsif dengan React.js. Pelajari untuk Membuat UI yang Dinamis.</small>
                             <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                                 <a href="#" class="text-primary fw-bold fs-5">Rp 550.000,-</a>
                                 <a href="#" class="btn btn-secondary fw-medium">Beli Kelas</a>
@@ -116,8 +116,11 @@
 
     <section id="benefit" class="pt-5 pb-5 ">
         <div class="conteiner mt-5">
-            <div class="row justify-content-center">
-                <div class="col-5" data-aos="fade-right" data-aos-duration="1000">
+            <div class="row justify-content-center p-5">
+                <div class="col-lg-4" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://images.unsplash.com/photo-1579389083395-4507e98b5e67?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid shadow" style="height: 70vh;width:100%; object-fit:cover;" alt="">
+                </div>
+                <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000">
                     <p class="fw-bold text-center fs-4 mt-4 text-secondary" id="benefitHeadline">BENEFIT PELANGGAN</p>
                     <div id="isi-benefit">
                         <p class="fw-medium text-secondary mb-4 "><i class="fa-solid text-secondary border border-secondary me-2 border-2 p-2 rounded fa-certificate"></i> Mendapatkan Sertifikat Profesi Standar Nasional</p>
@@ -125,11 +128,7 @@
                         <p class="fw-medium text-secondary mb-4 "><i class="fa-solid text-secondary border border-secondary me-2 border-2 p-2 rounded fa-certificate"></i> Live dengan Mentor Seminggu 2x</p>
                         <p class="fw-medium text-secondary mb-4 "><i class="fa-solid text-secondary border border-secondary me-2 border-2 p-2 rounded fa-certificate"></i> Grub Chat Diskusi dengan 999+ Peserta Lainnya</p>
                         <p class="fw-medium text-secondary mb-4 "><i class="fa-solid text-secondary border border-secondary me-2 border-2 p-2 rounded fa-certificate"></i> Didampingi oleh Mentor-mentor Standar Industri</p>
-                        
                     </div>
-                </div>
-                <div class="col-4" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="https://images.unsplash.com/photo-1579389083395-4507e98b5e67?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid shadow" style="height: 70vh;width:100%; object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
@@ -154,7 +153,7 @@
     <div class="container rounded shadow" id="promoCard">
       <div class="row" >
         <div class="col-7">
-          <p class="fw-bold h3 text-light ps-3 pt-5">Kenapa Harus Ikut NaikKelas.id Sekarang?</p>
+          <p class="fw-bold h3 text-light ps-3 pt-5" id="textPromoHeading">Kenapa Harus Ikut NaikKelas.id Sekarang?</p>
           <div class="ps-3 pt-2" id="isi-promo">
           <p class="fw-medium fs-7 text-light "><i class="fa-solid fa-tags"></i> Promo Spesial! Diskon 30% untuk Semua Kelas!</p>
           <p class="fw-medium fs-7 text-light "><i class="fa-solid fa-tags"></i> Tambahan Diskon! dengan Code "NaikKelasYuk"!</p>
@@ -173,8 +172,8 @@
     <div class="container">
             <p class="h4 fw-bold text-center p-2 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">BUNDLING PAKET SPESIAL!</p>
             <p class=" fw-medium text-center p-2 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">Ingin mengembangkan beragam keterampilan dengan harga yang terjangkau?<br> Manfaatkan bundling paket dari NaikKelas.id dan hemat lebih banyak!</p>
-      <div class="row justify-content-center">
-        <div class="col-5">
+      <div class="row justify-content-center p-5">
+        <div class="col-lg-5 mb-3">
           <div class="card shadow" data-aos="zoom-in-up" data-aos-duration="1000">
                   <img src="/img/bundling/bundlingweb.png" class="card-img-top img-fluid" alt="...">
                   <div class="card-body">
@@ -187,7 +186,7 @@
                   </div>
             </div>
         </div>
-        <div class="col-5">
+        <div class="col-lg-5 mb-3">
           <div class="card shadow" data-aos="zoom-in-up" data-aos-duration="1000">
                   <img src="/img/bundling/bundlingms.png" class="card-img-top img-fluid" alt="...">
                   <div class="card-body">
@@ -206,51 +205,48 @@
 
   <section id="mentor" class="slide bg-sponsor pt-3 pb-4"
     style="margin-top:5rem;">
+        <div id="headline" class="p-3">
         <p class="fw-bold text-center fs-4 text-secondary pb-2 m-0 p-0" data-aos="zoom-in-up" data-aos-duration="1000">PARA MENTOR DI NAIKKELAS.ID</p>
         <p class="fw-normal text-center text-secondary pb-2 text-center " data-aos="zoom-in-up" data-aos-duration="1000">Para Mentor di NaikKelas.id berstandar Industri<br>yang akan membimbing Anda dalam memahami dan menguasai pembelajaran dikelas</p>
-        <div class="autoplay d-flex" >
+        </div>
+        <div class="autoplayMentor d-flex" >
         <div data-aos="fade-up" data-aos-duration="2000"><div class="mentor-course rounded shadow me-3" style="background-image:url('/img/mentor/mentor1.jpg');">
           <div class="mentor-isi">
-            <p id="nama-mentor" class="fw-medium ps-3 mb-1 fs-6 text-light">Dr. Adi Wijaya, S.Kom.</p>
+            <p class="nama-mentor fw-medium ps-3 mb-1 text-light">Dr. Adi Wijaya, S.Kom.</p>
             <div class="spesialis-mentor ps-3">
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">Data Scient</a>
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">Exel</a>
+                <a href="" class="btn btn-white border border-light border-2 text-light fw-medium">Data Scient</a>
             </div>
           </div>
         </div></div>
         <div data-aos="fade-up" data-aos-duration="2100"><div class="mentor-course rounded shadow me-3" style="background-image:url('/img/mentor/mentor2.jpg');">
           <div class="mentor-isi">
-            <p id="nama-mentor" class="fw-medium ps-3 mb-1 fs-6 text-light">Dr. Rina Pratiwi, S.Kom., M.Sc. </p>
+            <p class="nama-mentor fw-medium ps-3 mb-1 text-light">Dr. Rina Pratiwi, S.Kom., M.Sc. </p>
             <div class="spesialis-mentor ps-3">
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">UI/UX</a>
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">LARAVEL</a>
+                <a href="" class="btn btn-white border border-light border-2 text-light fw-medium">UI/UX</a>
             </div>
           </div>
         </div></div>
         <div data-aos="fade-up" data-aos-duration="2200"><div class="mentor-course rounded shadow me-3" style="background-image:url('/img/mentor/mentor3.jpg');">
           <div class="mentor-isi">
-            <p id="nama-mentor" class="fw-medium ps-3 mb-1 fs-6 text-light">Dr. Citra Puspita, S.Kom., M.T.</p>
+            <p class="nama-mentor fw-medium ps-3 mb-1 text-light">Dr. Citra Puspita, S.Kom., M.T.</p>
             <div class="spesialis-mentor ps-3">
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">UI/UX</a>
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">Node Js</a>
+                <a href="" class="btn btn-white border border-light border-2 text-light fw-medium">Node Js</a>
             </div>
           </div>
         </div></div>
         <div data-aos="fade-up" data-aos-duration="2300"><div class="mentor-course rounded shadow me-3" style="background-image:url('/img/mentor/mentor4.jpg');">
           <div class="mentor-isi">
-            <p id="nama-mentor" class="fw-medium ps-3 mb-1 fs-6 text-light">Dr. Dian Wulandari, S.Kom.</p>
+            <p class="nama-mentor fw-medium ps-3 mb-1 text-light">Dr. Dian Wulandari, S.Kom.</p>
             <div class="spesialis-mentor ps-3">
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">UI/UX</a>
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">LARAVEL</a>
+                   <a href="" class="btn btn-white border border-light border-2 text-light fw-medium">React</a>
             </div>
           </div>
         </div></div>
         <div data-aos="fade-up" data-aos-duration="2400"><div class="mentor-course rounded shadow me-3" style="background-image:url('/img/mentor/mentor5.jpg');">
           <div class="mentor-isi">
-            <p id="nama-mentor" class="fw-medium ps-3 mb-1 fs-6 text-light"> Dr. Irfan Abdullah, S.Kom.</p>
+            <p class="nama-mentor fw-medium ps-3 mb-1 text-light"> Dr. Irfan Abdullah, S.Kom.</p>
             <div class="spesialis-mentor ps-3">
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">React</a>
-                <a href="" class="btn btn-white border p-2 border-light border-2 text-light fw-medium">Mongo DB</a>
+                <a href="" class="btn btn-white border border-light border-2 text-light fw-medium">Mongo DB</a>
             </div>
           </div>
         </div></div>
@@ -259,37 +255,37 @@
         </div>
   </section>
 
-  <section id="testimoniPage" style="padding-top: 2rem;margin-top:10rem;">
+  <section id="testimoniPage" style="padding-top: 2rem;">
     <div id="testimoni" style="padding-bottom:4rem;padding-top: 5rem; margin-top:7rem; background-color:#f8f9fa;">
       <h3 class="text-center fw-bold text-secondary" data-aos="zoom-in-up" data-aos-duration="1000">Apa Kata Alumni NaikKelas.id?</h3>
       <div class="container ">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center p-1">
           <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">
             <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
             <p id="tglTestimoni"><small>20 September 2024</small></p>
             <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
-              <p id="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
+              <p class="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
             </div>
           </div>
           <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">
             <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
             <p id="tglTestimoni"><small>20 September 2024</small></p>
             <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
-              <p id="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
+              <p class="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
             </div>
           </div>
           <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">
             <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
             <p id="tglTestimoni"><small>20 September 2024</small></p>
             <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
-              <p id="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
+              <p class="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
             </div>
           </div>
           <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">
             <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
             <p id="tglTestimoni"><small>20 September 2024</small></p>
             <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
-              <p id="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
+              <p class="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
             </div>
           </div>
         </div>
@@ -329,7 +325,20 @@
     <script type="text/javascript">
     $(document).ready(function () {
       $('.autoplay').slick({
-        slidesToShow: 4,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        prevArrow: false, // Menyembunyikan tombol "Previous"
+        nextArrow: false, // Menyembunyikan tombol "Next"
+        centerMode: true, // Aktifkan mode tengah
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.autoplayMentor').slick({
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1000,

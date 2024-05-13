@@ -16,6 +16,13 @@
     height: 88vh;
 }
 
+#textHeaderP{
+    font-size: 2.3rem;
+}
+
+#textHeaderSpan{
+    font-size: 3rem;
+}
 
 
 #caregori-course a:hover{
@@ -83,4 +90,121 @@
     bottom: 37.5%;
     right: 20%;
     filter: drop-shadow(1px 1px 5px black);
+}
+
+#testimoniPage{
+    margin-top: 24rem;
+}
+
+#sponsor img{
+    height: 12rem;
+}
+
+.mentor-course{
+    height: 30rem;
+    width: 23rem;
+}
+
+
+/* CSS Untuk Smartphone */
+@media only screen and (max-width: 767px) {
+  /* Tambahkan gaya CSS untuk tampilan smartphone di sini */
+  #header {
+    background-image: url("/img/bgDashboard.png");
+    height: 36.5vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+#imgHeader{
+    background-image: url('/img/imgHeader.png');
+    background-size: cover;
+    height: 28vh;
+}
+  
+  #textHeaderP{
+        font-size: 0.8rem;
+    }
+
+    #textHeaderSpan{
+        font-size: 1.1rem;
+    }
+
+    #textHeaderBtn{
+        font-size: 0.7rem;
+    }
+
+#promo{
+    margin-top: 15rem;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#promoCard{
+    height: 50vh;
+    width: 80vw;
+    background-color: rgb(250, 58, 58);
+}
+
+#img-promo{
+    position: absolute;
+    height: 40vh;
+    object-fit: cover;
+    bottom: 37.5%;
+    right: -15%;
+    filter: drop-shadow(1px 1px 5px black);
+}
+
+#isi-promo p{
+    font-size: 0.7rem;
+}
+
+#isi-promo a{
+    font-size: 0.7rem;
+}
+
+#textPromoHeading{
+    font-size: 1rem;
+}
+
+#testimoniPage{
+    margin-top: 10rem;
+}
+
+.isiTestimoni{
+    font-size: 0.7rem;
+}
+
+#sponsor img{
+    width: 6rem;
+    height: 3rem;
+}
+
+.mentor-course{
+    height: 8rem;
+    width: 5rem;
+}
+
+.mentor-isi p{
+    font-size: 0.3rem;
+}
+
+.spesialis-mentor a{
+    font-size: 0.3rem;
+    padding: 0.3rem;
+}
+
+.mentor-isi{
+    position: absolute;
+    top: 63%;
+}
+
+
+    
+}
+
+/* CSS Untuk Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tambahkan gaya CSS untuk tampilan tablet di sini */
 }
