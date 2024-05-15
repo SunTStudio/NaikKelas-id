@@ -79,7 +79,7 @@
                             <small class="card-text">Pelajari Fundamentals hingga Advanced Development dalam satu paket lengkap untuk menjadi ahli pengembang web dengan framework Laravel.</small>
                             <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                                 <a href="#" class="text-primary fw-bold fs-5">Rp 600.000,-</a>
-                                <a href="#" class="btn btn-secondary fw-medium">Beli Kelas</a>
+                                <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                             <small class="card-text">Kelas Fullstack Node.js: Kuasai Pengembangan Web dari Awal hingga Lanjutan dengan Node.js. Pelajari untuk Aplikasi Web yang Scalable dan Efisien.</small>
                             <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                                 <a href="#" class="text-primary fw-bold fs-5">Rp 650.000,-</a>
-                                <a href="#" class="btn btn-secondary fw-medium">Beli Kelas</a>
+                                <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                             <small class="card-text"> Mendalami Pembangunan Web yang Interaktif dan Responsif dengan React.js. Pelajari untuk Membuat UI yang Dinamis.</small>
                             <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                                 <a href="#" class="text-primary fw-bold fs-5">Rp 550.000,-</a>
-                                <a href="#" class="btn btn-secondary fw-medium">Beli Kelas</a>
+                                <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                       <small class="card-text">Kelas online Bundling Fullstack WebDev mengajarkan React JS, Node JS, dan MongoDB untuk pengembangan web yang komprehensif dan modern.</small>
                       <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                             <a href="#" class="text-primary fw-bold fs-5">Rp 1.300.000,-</a>
-                            <a href="#" class="btn btn-secondary fw-medium">Beli Kelas</a>
+                            <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                       </div>
                   </div>
             </div>
@@ -194,7 +194,7 @@
                       <small class="card-text">Bundling MS Office menghadirkan kesempatan mempelajari keterampilan dasar dan lanjutan untuk menguasai alat-alat penting dalam produktivitas di kantor.</small>
                       <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                             <a href="#" class="text-primary fw-bold fs-5">Rp 900.000,-</a>
-                            <a href="#" class="btn btn-secondary fw-medium">Beli Kelas</a>
+                            <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                       </div>
                   </div>
             </div>
