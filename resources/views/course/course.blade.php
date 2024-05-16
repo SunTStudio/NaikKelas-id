@@ -29,7 +29,7 @@
                     <a class="nav-link fw-medium active" aria-current="page" href="/">Beranda</a>
                     </li>
                     <li class="nav-item ms-5">
-                    <a class="nav-link fw-medium" href="/">Course</a>
+                    <a class="nav-link fw-medium" href="/all-course">Course</a>
                     </li>
                     <li class="nav-item ms-5">
                     <a class="nav-link fw-medium" href="/">Benefit</a>

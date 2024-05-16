@@ -1,0 +1,126 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+#caregori-course a:hover{
+    transition: 0.4s ease;
+    background-color: #464646;
+    color: white;
+}
+
+#btn-transaksi-course a{
+    text-decoration: none;
+}
+
+#card-course img{
+    height: 30vh;
+    object-fit: cover;
+}
+
+.wave {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+
+.wave2 {
+            width: 100%;
+            position: absolute;
+            top:-0.5%;
+        }
+
+
+#sub-promo-email{
+    font-size: 0.7rem;
+}
+
+#card-email-promo{
+    background-color: rgb(78, 22, 104);
+}
+
+#mentor{
+    height: 30vh;
+}
+
+.mentor-course{
+    height: 50vh;
+    width: 20vw;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.spesialis-mentor{
+    height: 50vh;
+    width: 20vw;
+}
+
+.spesialis-mentor a{
+    font-size: 0.6rem;
+}
+
+
+.mentor-course{
+    position: relative;
+}
+
+.mentor-isi{
+    position: absolute;
+    top: 73%;
+}
+
+.mentor-course{
+    height: 30rem;
+    width: 23rem;
+}
+
+#testimoniPage{
+    margin-top: 24rem;
+}
+
+
+
+
+
+
+
+
+
+/* responsif hp */
+@media only screen and (max-width: 767px) {
+
+    #testimoniPage{
+    margin-top: 10rem;
+}
+
+.isiTestimoni{
+    font-size: 0.7rem;
+}
+
+#sponsor img{
+    width: 6rem;
+    height: 3rem;
+}
+
+.mentor-course{
+    height: 8rem;
+    width: 5rem;
+}
+
+.mentor-isi p{
+    font-size: 0.3rem;
+}
+
+.spesialis-mentor a{
+    font-size: 0.3rem;
+    padding: 0.3rem;
+}
+
+.mentor-isi{
+    position: absolute;
+    top: 63%;
+}
+
+
+
+
+}
