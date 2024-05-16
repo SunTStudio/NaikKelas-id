@@ -2,6 +2,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+#img-logo{
+    width: 10vw;
+}
+
 #header {
     background-image: url("/img/bgDashboard.png");
     height: 100vh;

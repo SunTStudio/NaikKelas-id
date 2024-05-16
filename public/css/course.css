@@ -2,6 +2,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+#img-logo{
+    width: 10vw;
+}
+
 #keterangan-course p{
     font-size: 0.8rem;
 }
