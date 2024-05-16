@@ -117,10 +117,10 @@
     <section id="benefit" class="pt-5 pb-5 ">
         <div class="conteiner mt-5">
             <div class="row justify-content-center p-5">
-                <div class="col-lg-4" data-aos="fade-left" data-aos-duration="1000">
+                <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1000">
                     <img src="https://images.unsplash.com/photo-1579389083395-4507e98b5e67?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid shadow" style="height: 70vh;width:100%; object-fit:cover;" alt="">
                 </div>
-                <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000">
                     <p class="fw-bold text-center fs-4 mt-4 text-secondary" id="benefitHeadline">BENEFIT PELANGGAN</p>
                     <div id="isi-benefit">
                         <p class="fw-medium text-secondary mb-4 "><i class="fa-solid text-secondary border border-secondary me-2 border-2 p-2 rounded fa-certificate"></i> Mendapatkan Sertifikat Profesi Standar Nasional</p>

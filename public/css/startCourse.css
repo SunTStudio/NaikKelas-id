@@ -1,0 +1,35 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+#keterangan-course p{
+    font-size: 0.8rem;
+}
+
+#tujuanKelas li{
+    list-style: none;
+}
+
+#sub-promo-email{
+    font-size: 0.7rem;
+}
+
+#card-email-promo{
+    background-color: rgb(78, 22, 104);
+}
+
+#footer-bg-top{
+    margin-top: 5rem;
+}
+
+.accordion-body p a{
+    text-decoration: none;
+}
+
+.accordion-header button{
+    font-size: 0.8rem;
+}
+
+.accordion-body p{
+    font-size: 0.8rem;
+}

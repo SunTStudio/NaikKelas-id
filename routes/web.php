@@ -13,3 +13,11 @@ Route::get('/course', function () {
 Route::get('/all-course', function () {
     return view('course/allCourse');
 });
+
+Route::get('/start-course', function () {
+    return view('course/startCourse');
+});
+
+Route::get('/checkout', function () {
+    return view('checkout');
+});
