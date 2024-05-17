@@ -33,12 +33,12 @@
                     <a class="nav-link fw-medium" href="/all-course">Course</a>
                     </li>
                     <li class="nav-item ms-5">
-                    <a class="nav-link fw-medium" href="/">Benefit</a>
+                    <a class="nav-link fw-medium" href="/akun">Akun</a>
                     </li>
                 </ul>
                 <div class="loginBtn ms-5">
-                    <a href="#" class="btn btn-light text-secondary fw-medium p-3 shadow me-2">Masuk</a>
-                    <a href="#" class="btn btn-secondary p-3 fw-medium shadow">Daftar</a>
+                    <a href="/login" class="btn btn-light text-secondary fw-medium p-3 shadow me-2">Masuk</a>
+                    <a href="/daftar" class="btn btn-secondary p-3 fw-medium shadow">Daftar</a>
                 </div>
                 </div>
             </div>

@@ -1,0 +1,22 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+#btn-google{
+    transition: 0.4s ease;
+    color: #6C757D;
+}
+
+#btn-google:hover{
+    transition: 0.4s ease;
+    background-color: #6C757D;
+    color: white;
+}
+
+body {
+    background-image: url("/img/bgDashboard.png");
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}

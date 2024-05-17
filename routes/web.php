@@ -18,6 +18,14 @@ Route::get('/start-course', function () {
     return view('course/startCourse');
 });
 
-Route::get('/checkout', function () {
-    return view('checkout');
+Route::get('/login', function () {
+    return view('login/login');
+});
+
+Route::get('/daftar', function () {
+    return view('login/daftar');
+});
+
+Route::get('/akun', function () {
+    return view('akun');
 });
