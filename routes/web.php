@@ -29,3 +29,7 @@ Route::get('/daftar', function () {
 Route::get('/akun', function () {
     return view('akun');
 });
+
+Route::get('/preloader', function () {
+    return view('preloader');
+});

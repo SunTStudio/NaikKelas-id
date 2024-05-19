@@ -1,3 +1,12 @@
+function prosses() {
+    let modelEdit = document.getElementById("model-edit");
+    modelEdit.innerHTML =
+        '<div class="container">        <div class="row justify-content-center">            <div class="col-10">                <div id="proses-checkout" class="text-secondary text-center p-3 bg-white rounded">                    <p><small class="fw-medium mb-3">SILAHKAN LAKUKAN PEMBAYARAN MELALUI KODE VIRTUALDIBAWAH :</small></p>                    <p class="fw-medium h5 p-1 border border-secondary border-2 rounded mb-3">292320420203203</p>                    <p class="fw-medium mb-3">Salin <i class="fa-regular fa-clipboard"></i></p>                    <p class="fw-medium m-0">Atau Scan QR dibawah : <i class="fa-regular fa-clipboard"></i></p>                    <img src="/img/qr-code.png" alt="" class="img-fluid mb-3">                    <a href="" class="btn btn-warning fw-medium ps-4 pe-4" data-bs-dismiss="modal">Batal</a>                    <a href="" class="btn btn-secondary fw-medium ps-4 pe-4" data-bs-dismiss="modal" onclick="beli()">Beli Kelas</a>                </div>                            </div>        </div>        </div>';
+
+    let modalSize = document.getElementById("modal-size");
+    modalSize.setAttribute("class", "modal-dialog modal-md");
+}
+
 function beli() {
     let beli = document.getElementById("beli");
     beli.innerText = "Terbeli";

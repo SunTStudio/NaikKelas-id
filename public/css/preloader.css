@@ -1,0 +1,42 @@
+
+
+.loader{
+   position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #ffffff;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 100;
+    
+}
+
+#Component_1_1{
+    height: 10%;
+    animation:
+      bounce 2000ms
+      alternate infinite
+      cubic-bezier(.2, .65, .6, 1);
+    gap: 0.5rem;
+
+    
+}
+
+.logo-name{
+    letter-spacing: 2px;
+}
+
+
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
