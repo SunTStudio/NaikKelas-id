@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Checkout | NaikKelas.id</title>
+    <title>Masuk | NaikKelas.id</title>
     <link rel="icon" href="/img/logo-browser.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/preloader.css">
     <link rel="stylesheet" href="/css/login.css">
@@ -28,8 +28,8 @@
 
     <section id="login" class="mt-4">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-4 bg-white p-4 rounded shadow text-center" data-aos="fade-up" data-aos-duration="3000">
+        <div class="row justify-content-center p-4">
+          <div class="col-lg-4 bg-white p-4 rounded shadow text-center" data-aos="fade-up" data-aos-duration="3000">
             <img src="/img/logo.png" class="img-fluid p-5" alt="" data-aos="zoom-in-up" data-aos-duration="3000">
             <p class="fw-medium text-secondary text-center" data-aos="zoom-in-up" data-aos-duration="3000">`Mari Jadi yang Terbaik dan menjadi <br> Grow Up People 
               Bersama Kami`</p>
@@ -45,7 +45,7 @@
               <button type="submit" class="btn btn-secondary p-1 ps-4 pe-4 fw-medium">Masuk Sekarang</button>
             </form>
             <p class="text-center fw-normal mt-4 text-secondary" data-aos="zoom-in-down" data-aos-duration="3000">Belum Punya Akun? <a href="/daftar">Daftar Disini</a> </p>
-              <a href="/" class="btn btn-white border border-secondary p-1 ps-4 pe-4 fw-medium mb-2" id="btn-google"><i class="fa-brands fa-google pe-2" ></i> Masuk dengan Email Google</a>
+              <a href="/" class="btn btn-white border border-secondary p-1 ps-2 pe-2 fw-medium mb-2" id="btn-google"><i class="fa-brands fa-google pe-2" ></i> Masuk dengan Email Google</a>
           </div>
         </div>
       </div>

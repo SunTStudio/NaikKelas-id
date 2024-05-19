@@ -37,3 +37,25 @@
 .accordion-body p{
     font-size: 0.8rem;
 }
+
+
+/* responsif hp */
+@media only screen and (max-width: 767px) {
+    #img-logo{
+    width: 25vw;
+    }
+
+    iframe{
+        width: 360px;
+        height: 208px;
+    }
+
+    #text-promo-email p{
+    font-size: 0.8rem;
+}
+
+#sub-promo-email{
+    font-size: 0.6rem;
+}
+
+}

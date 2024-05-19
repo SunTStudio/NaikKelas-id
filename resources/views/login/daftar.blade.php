@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Checkout | NaikKelas.id</title>
+    <title>Daftar | NaikKelas.id</title>
     <link rel="icon" href="/img/logo-browser.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/login.css">
     <link rel="stylesheet" href="/css/preloader.css">
@@ -28,8 +28,8 @@
 
     <section id="login" class="mt-4">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-4 bg-white p-4 rounded shadow text-center" data-aos="fade-up" data-aos-duration="3000">
+        <div class="row justify-content-center p-4">
+          <div class="col-lg-4 bg-white p-4 rounded shadow text-center" data-aos="fade-up" data-aos-duration="3000">
             <img src="/img/logo.png" class="img-fluid p-3 " alt="" data-aos="zoom-in-up" data-aos-duration="3000">
             <p class="h5 fw-medium mt-3 text-secondary" data-aos="zoom-in-down" data-aos-duration="3000">Daftar Akun Baru</p>
             <form class="mt-3 text-center" action="/" data-aos="zoom-in-down" data-aos-duration="3000">

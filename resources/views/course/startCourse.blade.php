@@ -62,7 +62,7 @@
                 <small class="text-danger">Dr. Adi Wijaya, S.Kom.</small>
             </div>
             <div class="row">
-                <div class="col-8 ">
+                <div class="col-lg-8 mb-3">
                     <iframe width="720" height="415"  data-aos="fade-up" data-aos-duration="3000" src="https://www.youtube.com/embed/FTc6teQ-szA?si=vYGLcw9LSAK2Ms8S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="isi"  data-aos="fade-up" data-aos-duration="3000">
                         <p class="h5 fw-bold mt-5">Penjelasan Materi</p><hr>
@@ -81,7 +81,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="col-4" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="accordion mb-4" id="accordionExample">
                         <div class="accordion-item">
                             <p class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -90,18 +90,16 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
-                                    <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>3.Quiz</a><span
-                                            class="float-end text-secondary"> 30:00 <i class="fa-solid fa-lock"></i></span></p>
+                                    <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i> 3.Quiz</a><span
+                                            class="float-end text-secondary"> 30:00 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            4.StudiKasus</a> <span class="float-end text-secondary"><i class="fa-solid fa-lock"></i></span>
+                                            4.StudiKasus</a> <span class="float-end text-secondary"></span>
                                     </p>
                                     <hr>
                                 </div>
@@ -114,18 +112,16 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>3.Quiz</a><span
-                                            class="float-end text-secondary"> 30:00 <i class="fa-solid fa-lock"></i></span></p>
+                                            class="float-end text-secondary"> 30:00 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            4.StudiKasus</a> <span class="float-end text-secondary"><i class="fa-solid fa-lock"></i></span>
+                                            4.StudiKasus</a> <span class="float-end text-secondary"></span>
                                     </p>
                                     <hr>
                                 </div>
@@ -138,18 +134,16 @@
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>3.Quiz</a><span
-                                            class="float-end text-secondary"> 30:00 <i class="fa-solid fa-lock"></i></span></p>
+                                            class="float-end text-secondary"> 30:00 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            4.StudiKasus</a> <span class="float-end text-secondary"><i class="fa-solid fa-lock"></i></span>
+                                            4.StudiKasus</a> <span class="float-end text-secondary"></span>
                                     </p>
                                     <hr>
                                 </div>
@@ -162,18 +156,16 @@
                             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>3.Quiz</a><span
-                                            class="float-end text-secondary"> 30:00 <i class="fa-solid fa-lock"></i></span></p>
+                                            class="float-end text-secondary"> 30:00 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            4.StudiKasus</a> <span class="float-end text-secondary"><i class="fa-solid fa-lock"></i></span>
+                                            4.StudiKasus</a> <span class="float-end text-secondary"></span>
                                     </p>
                                     <hr>
                                 </div>
@@ -186,18 +178,16 @@
                             <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>3.Quiz</a><span
-                                            class="float-end text-secondary"> 30:00 <i class="fa-solid fa-lock"></i></span></p>
+                                            class="float-end text-secondary"> 30:00 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            4.StudiKasus</a> <span class="float-end text-secondary"><i class="fa-solid fa-lock"></i></span>
+                                            4.StudiKasus</a> <span class="float-end text-secondary"></span>
                                     </p>
                                     <hr>
                                 </div>
@@ -210,18 +200,16 @@
                             <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            1.SubMateri</a> <span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 <i
-                                                class="fa-solid fa-lock"></i></span></p>
+                                            2.SubMateri</a><span class="float-end text-secondary"> 17:20 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>3.Quiz</a><span
-                                            class="float-end text-secondary"> 30:00 <i class="fa-solid fa-lock"></i></span></p>
+                                            class="float-end text-secondary"> 30:00 </span></p>
                                     <hr>
                                     <p><a href="#" class="text-secondary"><i class="fa-brands fa-youtube text-secondary"></i>
-                                            4.StudiKasus</a> <span class="float-end text-secondary"><i class="fa-solid fa-lock"></i></span>
+                                            4.StudiKasus</a> <span class="float-end text-secondary"></span>
                                     </p>
                                     <hr>
                                 </div>
@@ -240,13 +228,13 @@
     <section id="email-promo" class="mt-5 mb-3" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
-                <div class="col-9 rounded p-3 shadow" id="card-email-promo">
+                <div class="col-lg-9 rounded p-3 shadow" id="card-email-promo">
                     <div class="row">
-                        <div class="col-8" id="text-promo-email">
+                        <div class="col-lg-8 mb-1" id="text-promo-email">
                             <p class="fw-bold text-light m-0">Subscribe NaikKelas.id Untuk Informasi TerUpdate!</p>
                             <p class=" fw-normal text-light m-0" id="sub-promo-email">Masukan Email Anda dan Subscribe untuk mendapatkan semua informasi menarik dari Kami!</p>
                         </div>
-                        <div class="col-4" id="input-promo-email">
+                        <div class="col-lg-4" id="input-promo-email">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Masukan Email Anda.." aria-label="email" aria-describedby="basic-addon1">
                                 <button class="input-group-text" id="basic-addon1"><i class="fa-solid fa-paper-plane"></i></button>

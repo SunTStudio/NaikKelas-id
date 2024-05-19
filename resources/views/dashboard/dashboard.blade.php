@@ -21,14 +21,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />  
 </head>
   <body>
-    <div class="loader">
-            <svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="307.762" height="349.247" viewBox="0 0 307.762 349.247">
-                <path id="Path_2" data-name="Path 2" d="M173.857,532.929l12.161-10.638c.054-95.438.039-196.2.039-291.635v-14.1l4.25-1.806,209.929,241.8,3.049-1.063V222.038L356.623,252.9,418.6,183.682c20.649,22.7,40.712,44.752,63.022,69.275-16.8-11.049-30.9-20.329-46.932-30.874-.7,5.574-1.482,8.947-1.484,12.321q-.1,145.008,0,290.018a71.038,71.038,0,0,0,1,8.507h-7.4c-2.316-3.707-4.184-7.8-7.014-11.063q-95.8-110.348-191.734-220.585c-2.859-3.293-11.178-16.852-11.178-16.852-.176-.175-.756,15.58-.758,19.066q-.067,109.244.014,218.486l11.83,10.948Z" transform="translate(-173.857 -183.682)" fill="#5a646c"/>
-            </svg>
-            <small class="fw-medium text-secondary logo-name">NaikKelas.id</small>
-        </div>
-    <section id="header">
-        <nav class="navbar navbar-expand-lg">
+    <div id="nav">
+      <nav class="navbar navbar-expand-lg" id="nav">
             <div class="container" data-aos="fade-down" data-aos-duration="3000">
                 <a class="navbar-brand fw-medium" href="#"><img src="/img/logo.png" alt="" class="img-fluid" id="img-logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,6 +47,15 @@
                 </div>
             </div>
         </nav>
+    </div>
+    <div class="loader">
+            <svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="307.762" height="349.247" viewBox="0 0 307.762 349.247">
+                <path id="Path_2" data-name="Path 2" d="M173.857,532.929l12.161-10.638c.054-95.438.039-196.2.039-291.635v-14.1l4.25-1.806,209.929,241.8,3.049-1.063V222.038L356.623,252.9,418.6,183.682c20.649,22.7,40.712,44.752,63.022,69.275-16.8-11.049-30.9-20.329-46.932-30.874-.7,5.574-1.482,8.947-1.484,12.321q-.1,145.008,0,290.018a71.038,71.038,0,0,0,1,8.507h-7.4c-2.316-3.707-4.184-7.8-7.014-11.063q-95.8-110.348-191.734-220.585c-2.859-3.293-11.178-16.852-11.178-16.852-.176-.175-.756,15.58-.758,19.066q-.067,109.244.014,218.486l11.83,10.948Z" transform="translate(-173.857 -183.682)" fill="#5a646c"/>
+            </svg>
+            <small class="fw-medium text-secondary logo-name">NaikKelas.id</small>
+        </div>
+    <section id="header">
+        
 
         <div class="text-header">
             <div class="container">

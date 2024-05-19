@@ -59,13 +59,13 @@
 
     {{-- header --}}
     <section id="header" style="position: relative">
-      <div class="container p-5">
+      <div class="container pt-5 pb-5">
         <div class="row justify-content-center">
           <div class="col-8" data-aos="zoom-in-up" data-aos-duration="3000">
-            <p class="h1 text-secondary fw-bold text-center">Cari dan Pedalam Passion Kamu<br>bersama Kami di Platform NaikKelas.id</p>
+            <p class="h1 text-secondary fw-bold text-center" id="headline">Cari dan Pedalam Passion Kamu<br>bersama Kami di Platform NaikKelas.id</p>
           </div>
-          <div class="col-8">
-            <p class="fw-medium text-center text-secondary p-5" data-aos="zoom-in-down" data-aos-duration="3000">`Kami dengan senang hati mempersembahkan platform belajar digital yang dirancang khusus untuk mendukung perjalanan belajar Anda. Di naikkelas.id, kami percaya bahwa setiap orang memiliki potensi besar untuk meraih kesuksesan. Oleh karena itu, kami menyediakan beragam kelas online yang berkualitas, interaktif, dan mudah diakses kapan saja dan di mana saja.`</p>
+          <div class="col-8" id="sub-headline">
+            <p class="fw-medium text-center text-secondary"  data-aos="zoom-in-down" data-aos-duration="3000">`Kami dengan senang hati mempersembahkan platform belajar digital yang dirancang khusus untuk mendukung perjalanan belajar Anda. Di naikkelas.id, kami percaya bahwa setiap orang memiliki potensi besar untuk meraih kesuksesan. Oleh karena itu, kami menyediakan beragam kelas online yang berkualitas, interaktif, dan mudah diakses kapan saja dan di mana saja.`</p>
           </div>
          
         </div>
@@ -96,7 +96,7 @@
                                 <p class="fw-bold fs-5 card-title">FullStack Laravel</p>
                                 <small class="card-text">Pelajari Fundamentals hingga Advanced Development dalam satu paket lengkap untuk menjadi ahli pengembang web dengan framework Laravel.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 600.000,-</a>
+                                    <a href="#" class="text-primary fw-bold fs-5">Rp 650.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -139,12 +139,12 @@
                 <div class="row p-2" id="card-course">
                     <div class="col-lg-4 mb-3">
                         <div class="card shadow " data-aos="fade-up" data-aos-duration="1000">
-                            <img src="https://miro.medium.com/v2/resize:fit:1358/1*SoJOoRqbFp9fvNILpl4JNw.jpeg" class="card-img-top img-fluid" alt="...">
+                            <img src="https://store-images.s-microsoft.com/image/apps.4282.14121511789296356.b1cd9e56-07b3-4312-abb8-d71eecbef69b.8dc6274c-ecd5-43a0-9113-5666b12348f2?h=576" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
-                                <p class="fw-bold fs-5 card-title">FullStack Laravel</p>
-                                <small class="card-text">Pelajari Fundamentals hingga Advanced Development dalam satu paket lengkap untuk menjadi ahli pengembang web dengan framework Laravel.</small>
+                                <p class="fw-bold fs-5 card-title">Expert Corel Draw</p>
+                                <small class="card-text">Kelas CorelDRAW: Kuasai Desain Grafis dari Awal hingga Lanjutan dengan CorelDRAW. Pelajari untuk Karya Seni Digital yang Profesional dan Kreatif.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 600.000,-</a>
+                                    <a href="#" class="text-primary fw-bold fs-5">Rp 300.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -152,12 +152,12 @@
                     </div>
                     <div class="col-lg-4 mb-3">
                         <div class="card shadow" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="https://stackdiary.com/wp-content/uploads/2022/04/The-Most-Popular-Node.js-Frameworks-3.png" class="card-img-top img-fluid" alt="...">
+                            <img src="https://s3-alpha.figma.com/hub/file/716359964/3b5d23d8-502a-454d-a590-6b8add2f367f-cover.png" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
-                                <p class="fw-bold fs-5 card-title">FullStack Node JS</p>
-                                <small class="card-text">Kelas Fullstack Node.js: Kuasai Pengembangan Web dari Awal hingga Lanjutan dengan Node.js. Pelajari untuk Aplikasi Web yang Scalable dan Efisien.</small>
+                                <p class="fw-bold fs-5 card-title">Expert Figma UI/UX</p>
+                                <small class="card-text">Kelas Figma UI/UX: Kuasai Desain Antarmuka dan Pengalaman Pengguna dari Figma untuk Membuat Desain Aplikasi yang Menarik dan Fungsional.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 650.000,-</a>
+                                    <a href="#" class="text-primary fw-bold fs-5">Rp 350.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -165,12 +165,12 @@
                     </div>
                     <div class="col-lg-4 mb-3">
                         <div class="card shadow" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="https://media.licdn.com/dms/image/D4D12AQF26-NZ279EaA/article-cover_image-shrink_600_2000/0/1688018102545?e=2147483647&v=beta&t=Q9aUSt_UHzSqZYyDycri3s2kqVDlPc-YM0ZzlH2yfYc" class="card-img-top img-fluid" alt="...">
+                            <img src="https://fronty.com/static/uploads/new/1.png" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
-                                <p class="fw-bold fs-5 card-title">FullStack React Js</p>
-                                <small class="card-text"> Mendalami Pembangunan Web yang Interaktif dan Responsif dengan React.js. Pelajari untuk Membuat UI yang Dinamis.</small>
+                                <p class="fw-bold fs-5 card-title">Expert Adobe illustrator</p>
+                                <small class="card-text"> Kelas Adobe Illustrator: Kuasai Desain Grafis dari Awal hingga Lanjutan dan Pelajari untuk Membuat Ilustrasi dan Grafik Vektor yang Kreatif.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 550.000,-</a>
+                                    <a href="#" class="text-primary fw-bold fs-5">Rp 525.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -186,10 +186,10 @@
                 <div class="row p-2" id="card-course">
                     <div class="col-lg-4 mb-3">
                         <div class="card shadow " data-aos="fade-up" data-aos-duration="1000">
-                            <img src="https://miro.medium.com/v2/resize:fit:1358/1*SoJOoRqbFp9fvNILpl4JNw.jpeg" class="card-img-top img-fluid" alt="...">
+                            <img src="https://cdn1.byjus.com/wp-content/uploads/2020/09/MS-Word.png" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
-                                <p class="fw-bold fs-5 card-title">FullStack Laravel</p>
-                                <small class="card-text">Pelajari Fundamentals hingga Advanced Development dalam satu paket lengkap untuk menjadi ahli pengembang web dengan framework Laravel.</small>
+                                <p class="fw-bold fs-5 card-title">Expert Ms Word</p>
+                                <small class="card-text">Kelas Microsoft Word: Kuasai Pengolahan Kata dari Awal hingga Lanjutan dengan Microsoft Word. Pelajari untuk Membuat Dokumen yang Profesional,Terstruktur dan Menarik.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                                     <a href="#" class="text-primary fw-bold fs-5">Rp 600.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
@@ -199,10 +199,10 @@
                     </div>
                     <div class="col-lg-4 mb-3">
                         <div class="card shadow" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="https://stackdiary.com/wp-content/uploads/2022/04/The-Most-Popular-Node.js-Frameworks-3.png" class="card-img-top img-fluid" alt="...">
+                            <img src="https://cdn.rswebsols.com/wp-content/uploads/2023/03/microsoft-powerpoint-edited-920x518.png?strip=all&lossy=1&ssl=1" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
-                                <p class="fw-bold fs-5 card-title">FullStack Node JS</p>
-                                <small class="card-text">Kelas Fullstack Node.js: Kuasai Pengembangan Web dari Awal hingga Lanjutan dengan Node.js. Pelajari untuk Aplikasi Web yang Scalable dan Efisien.</small>
+                                <p class="fw-bold fs-5 card-title">Expert Ms PowerPoint</p>
+                                <small class="card-text">Kelas Microsoft PowerPoint: Kuasai Presentasi dari Awal hingga Lanjutan dengan Microsoft PowerPoint. Pelajari untuk Membuat Presentasi yang Menarik dan Efektif.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                                     <a href="#" class="text-primary fw-bold fs-5">Rp 650.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
@@ -212,10 +212,10 @@
                     </div>
                     <div class="col-lg-4 mb-3">
                         <div class="card shadow" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="https://media.licdn.com/dms/image/D4D12AQF26-NZ279EaA/article-cover_image-shrink_600_2000/0/1688018102545?e=2147483647&v=beta&t=Q9aUSt_UHzSqZYyDycri3s2kqVDlPc-YM0ZzlH2yfYc" class="card-img-top img-fluid" alt="...">
+                            <img src="https://hotmart.s3.amazonaws.com/product_pictures/b7959bbf-9a64-4bf7-9c8a-eceb7ea34355/logodoprogramaexcelreproducaomicrosoft.jpg" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
-                                <p class="fw-bold fs-5 card-title">FullStack React Js</p>
-                                <small class="card-text"> Mendalami Pembangunan Web yang Interaktif dan Responsif dengan React.js. Pelajari untuk Membuat UI yang Dinamis.</small>
+                                <p class="fw-bold fs-5 card-title">Expert Ms Exel</p>
+                                <small class="card-text"> Kelas Microsoft Excel: Kuasai Pengolahan Data dari Awal hingga Lanjutan dengan Microsoft Excel. Pelajari untuk Membuat Spreadsheet yang Kompleks dan Analisis Data yang Efisien.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
                                     <a href="#" class="text-primary fw-bold fs-5">Rp 550.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
@@ -238,11 +238,11 @@
             <div class="row justify-content-center">
                 <div class="col-9 rounded p-3 shadow" id="card-email-promo">
                     <div class="row">
-                        <div class="col-8" id="text-promo-email">
+                        <div class="col-lg-8" id="text-promo-email">
                             <p class="fw-bold text-light m-0">Subscribe NaikKelas.id Untuk Informasi TerUpdate!</p>
                             <p class=" fw-normal text-light m-0" id="sub-promo-email">Masukan Email Anda dan Subscribe untuk mendapatkan semua informasi menarik dari Kami!</p>
                         </div>
-                        <div class="col-4" id="input-promo-email">
+                        <div class="col-lg-4" id="input-promo-email">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Masukan Email Anda.." aria-label="email" aria-describedby="basic-addon1">
                                 <button class="input-group-text" id="basic-addon1"><i class="fa-solid fa-paper-plane"></i></button>

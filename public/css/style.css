@@ -2,13 +2,17 @@
     font-family: "Montserrat", sans-serif;
 }
 
+#nav{
+    background-color: #D2E7E5;
+}
+
 #img-logo{
     width: 10vw;
 }
 
 #header {
     background-image: url("/img/bgDashboard.png");
-    height: 100vh;
+    height:88vh;
     width: 100%;
     object-fit: cover;
     background-size: cover;
@@ -115,11 +119,15 @@
   /* Tambahkan gaya CSS untuk tampilan smartphone di sini */
   #header {
     background-image: url("/img/bgDashboard.png");
-    height: 36.5vh;
+    height: 28vh;
     width: 100%;
     object-fit: cover;
     background-size: cover;
 }
+    #img-logo{
+    width: 25vw;
+    }
+    
 #imgHeader{
     background-image: url('/img/imgHeader.png');
     background-size: cover;

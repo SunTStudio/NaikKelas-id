@@ -62,8 +62,8 @@
                 <small class="text-danger">Dr. Adi Wijaya, S.Kom.</small>
             </div>
             <div class="row">
-                <div class="col-9 " data-aos="fade-up" data-aos-duration="3000"><img src="https://miro.medium.com/v2/resize:fit:1358/1*SoJOoRqbFp9fvNILpl4JNw.jpeg" alt="" class="img-fluid rounded"></div>
-                <div class="col-3  rounded shadow  text-center" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-9 " data-aos="fade-up" data-aos-duration="3000"><img src="https://miro.medium.com/v2/resize:fit:1358/1*SoJOoRqbFp9fvNILpl4JNw.jpeg" alt="" class="img-fluid rounded"></div>
+                <div class="col-lg-3  rounded shadow  text-center" data-aos="fade-up" data-aos-duration="3000">
                     <p class="fw-medium text-secondary  pt-5 mb-0" style="text-decoration: line-through;">Rp 800.000,-</p>
                     <p class="h3 fw-bold text-primary  mt-0">Rp 600.000,-</p>
                     <a href="#" class="btn btn-secondary pt-2 pb-2 ps-5 pe-5 fw-bold text-light mt-1" id="beli" data-bs-toggle="modal" data-bs-target="#exampleModal" >Beli Kelas</a> <br>
@@ -84,7 +84,7 @@
     <section id="info-course">
         <div class="container">
             <div class="row">
-                <div class="col-9" >
+                <div class="col-lg-9" >
                     <ul class="nav nav-underline mb-4" data-aos="fade-down" data-aos-duration="1000">
                         <li class="nav-item me-5">
                             <a class="nav-link active" aria-current="page" href="#info-course" id="deskripsi" onclick="deskripsi()">Deskripsi</a>
@@ -112,7 +112,7 @@
 
                     </div>
                 </div>
-                <div class="col-3" data-aos="fade-left" data-aos-duration="1000">
+                <div class="col-lg-3" data-aos="fade-left" data-aos-duration="1000">
                     <a href="#"><img src="/img/promo/iklan.png" alt="" id="iklan" class="img-fluid rounded shadow"></a>
                 </div>
             </div>
@@ -124,13 +124,13 @@
     <section id="email-promo" class="mt-5 mb-3" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
-                <div class="col-9 rounded p-3 shadow" id="card-email-promo">
+                <div class="col-lg-9 rounded p-3 shadow" id="card-email-promo">
                     <div class="row">
-                        <div class="col-8" id="text-promo-email">
+                        <div class="col-lg-8 mb-1" id="text-promo-email">
                             <p class="fw-bold text-light m-0">Subscribe NaikKelas.id Untuk Informasi TerUpdate!</p>
                             <p class=" fw-normal text-light m-0" id="sub-promo-email">Masukan Email Anda dan Subscribe untuk mendapatkan semua informasi menarik dari Kami!</p>
                         </div>
-                        <div class="col-4" id="input-promo-email">
+                        <div class="col-lg-4" id="input-promo-email">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Masukan Email Anda.." aria-label="email" aria-describedby="basic-addon1">
                                 <button class="input-group-text" id="basic-addon1"><i class="fa-solid fa-paper-plane"></i></button>
@@ -181,7 +181,7 @@
         <section id="checkout">
             <div class="container"> 
                 <div class="row justify-content-center p-3">
-                    <div class="col-7" >
+                    <div class="col-lg-7" >
                     <form>
                         <div class="mb-3 bg-white p-3 ps-4 pe-4 rounded text-secondary">
                         <label for="exampleInputEmail1" class="form-label fw-medium"><i class="fa-solid fa-envelope p-2 bg-danger text-light rounded-circle"></i> Masukan Email</label>
@@ -209,7 +209,7 @@
                         </div>
                     </form>
                     </div>
-                    <div class="col-5 ">
+                    <div class="col-lg-5 ">
                     <div id="produk-checkout" class="bg-white rounded p-3 pb-4">
                         <p class="fw-medium text-secondary"><i class="fa-solid fa-cart-shopping p-2 bg-danger text-light rounded-circle "></i> Detail Pesanan</p>
                         <div class="row">

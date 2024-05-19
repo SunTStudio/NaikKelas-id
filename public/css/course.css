@@ -29,3 +29,19 @@
 .accordion-body p a{
     text-decoration: none;
 }
+
+/* responsif hp */
+@media only screen and (max-width: 767px) {
+    #img-logo{
+    width: 25vw;
+    }
+
+    #text-promo-email p{
+    font-size: 0.8rem;
+}
+
+#sub-promo-email{
+    font-size: 0.6rem;
+}
+
+}

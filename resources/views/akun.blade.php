@@ -34,13 +34,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item ms-5">
-                    <a class="nav-link fw-medium active" aria-current="page" href="/">Beranda</a>
+                    <a class="nav-link fw-medium " aria-current="page" href="/">Beranda</a>
                     </li>
                     <li class="nav-item ms-5">
                     <a class="nav-link fw-medium" href="/all-course">Course</a>
                     </li>
                     <li class="nav-item ms-5">
-                    <a class="nav-link fw-medium" href="/akun">Akun</a>
+                    <a class="nav-link fw-medium active" href="/akun">Akun</a>
                     </li>
                 </ul>
                 <div class="loginBtn ms-5">
@@ -51,7 +51,7 @@
             </div>
         </nav>
     </section>
-    {{-- nav --}}
+    {{-- nav --}} 
 
     {{-- profile --}}
     <section id="profile">
@@ -59,7 +59,7 @@
         
 
         <div class="row justify-content-center p-3 mt-5 ">
-          <div class="col-2">
+          <div class="col-lg-2">
             <div id="menu-akun" class="text-secondary border rounded p-4 pt-2 pb-2" data-aos="fade-right" data-aos-duration="3000">
               <p class="fw-bold mt-3">Menu Akun</p>
               <p class="fw-medium mt-3" onclick="profile()"><a href="#"><i class="fa-regular fa-user me-3" ></i> Profile</a></p>
@@ -67,7 +67,7 @@
               <p class="fw-medium mt-3" onclick="riwayat()"><a href="#"><i class="fa-solid fa-clock-rotate-left me-3" ></i> Riwayat</a></p>
             </div>
           </div>
-          <div class="col-7 p-3" id="konten-profile">
+          <div class="col-lg-7 p-3" id="konten-profile">
             <div id="welcome" class="text-center text-secondary pt-2" data-aos="fade-down" data-aos-duration="3000">
               <p class="h3 fw-bold">Selamat Datang, Mahsun Badrutamam!</p>
               <p class="fw-medium">Semua Informasi diri kamu dan aktifitas kamu ada disini!</p>

@@ -22,3 +22,11 @@
     color: #393a3a;
     font-weight: bold;
 }
+
+
+@media only screen and (max-width: 767px) {
+    #img-logo{
+    width: 25vw;
+    }
+
+}
