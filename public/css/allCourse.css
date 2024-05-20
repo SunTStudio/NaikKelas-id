@@ -6,6 +6,10 @@
     width: 10vw;
 }
 
+#img-header{
+    display: none;
+}
+
 #sub-headline p{
     padding: 3rem;
 }
@@ -152,6 +156,22 @@
 
 #sub-promo-email{
     font-size: 0.6rem;
+}
+
+.tglTestimoni{
+    font-size: 0.7rem;
+}
+
+.harga-teks{
+    font-size: 0.7rem;
+}
+
+#img-header{
+    display:inline;
+    text-align: center;
+    padding: 1rem;
+    width: 50vw;
+    object-fit: cover;
 }
 
 }

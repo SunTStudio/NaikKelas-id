@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
-    <title>NaikKelas.iID</title>
+    <title>Semua Kelas | NaikKelas.id</title>
     <link rel="icon" href="/img/logo-browser.png" type="image/x-icon">
     {{-- <link rel="stylesheet" href="{{ asset("css/style.css") }}"> --}}
     <link rel="stylesheet" href="/css/preloader.css">
@@ -61,7 +61,8 @@
     <section id="header" style="position: relative">
       <div class="container pt-5 pb-5">
         <div class="row justify-content-center">
-          <div class="col-8" data-aos="zoom-in-up" data-aos-duration="3000">
+          <div class="col-8  text-center" data-aos="zoom-in-up" data-aos-duration="3000">
+            <img src="/img/logo.png" alt="" class="img-fluid text-center" id="img-header">
             <p class="h1 text-secondary fw-bold text-center" id="headline">Cari dan Pedalam Passion Kamu<br>bersama Kami di Platform NaikKelas.id</p>
           </div>
           <div class="col-8" id="sub-headline">
@@ -96,7 +97,7 @@
                                 <p class="fw-bold fs-5 card-title">FullStack Laravel</p>
                                 <small class="card-text">Pelajari Fundamentals hingga Advanced Development dalam satu paket lengkap untuk menjadi ahli pengembang web dengan framework Laravel.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 650.000,-</a>
+                                    <a href="#" class="text-primary fw-bold harga-teks">Rp 650.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -109,7 +110,7 @@
                                 <p class="fw-bold fs-5 card-title">FullStack Node JS</p>
                                 <small class="card-text">Kelas Fullstack Node.js: Kuasai Pengembangan Web dari Awal hingga Lanjutan dengan Node.js. Pelajari untuk Aplikasi Web yang Scalable dan Efisien.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 650.000,-</a>
+                                    <a href="#" class="text-primary fw-bold harga-teks">Rp 650.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -122,7 +123,7 @@
                                 <p class="fw-bold fs-5 card-title">FullStack React Js</p>
                                 <small class="card-text"> Mendalami Pembangunan Web yang Interaktif dan Responsif dengan React.js. Pelajari untuk Membuat UI yang Dinamis.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 550.000,-</a>
+                                    <a href="#" class="text-primary fw-bold harga-teks">Rp 550.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -144,7 +145,7 @@
                                 <p class="fw-bold fs-5 card-title">Expert Corel Draw</p>
                                 <small class="card-text">Kelas CorelDRAW: Kuasai Desain Grafis dari Awal hingga Lanjutan dengan CorelDRAW. Pelajari untuk Karya Seni Digital yang Profesional dan Kreatif.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 300.000,-</a>
+                                    <a href="#" class="text-primary fw-bold harga-teks">Rp 300.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -157,7 +158,7 @@
                                 <p class="fw-bold fs-5 card-title">Expert Figma UI/UX</p>
                                 <small class="card-text">Kelas Figma UI/UX: Kuasai Desain Antarmuka dan Pengalaman Pengguna dari Figma untuk Membuat Desain Aplikasi yang Menarik dan Fungsional.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 350.000,-</a>
+                                    <a href="#" class="text-primary fw-bold harga-teks">Rp 350.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -170,7 +171,7 @@
                                 <p class="fw-bold fs-5 card-title">Expert Adobe illustrator</p>
                                 <small class="card-text"> Kelas Adobe Illustrator: Kuasai Desain Grafis dari Awal hingga Lanjutan dan Pelajari untuk Membuat Ilustrasi dan Grafik Vektor yang Kreatif.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 525.000,-</a>
+                                    <a href="#" class="text-primary fw-bold harga-teks">Rp 525.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -191,7 +192,7 @@
                                 <p class="fw-bold fs-5 card-title">Expert Ms Word</p>
                                 <small class="card-text">Kelas Microsoft Word: Kuasai Pengolahan Kata dari Awal hingga Lanjutan dengan Microsoft Word. Pelajari untuk Membuat Dokumen yang Profesional,Terstruktur dan Menarik.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 600.000,-</a>
+                                    <a href="#" class="text-primary fw-bold harga-teks">Rp 600.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -204,7 +205,7 @@
                                 <p class="fw-bold fs-5 card-title">Expert Ms PowerPoint</p>
                                 <small class="card-text">Kelas Microsoft PowerPoint: Kuasai Presentasi dari Awal hingga Lanjutan dengan Microsoft PowerPoint. Pelajari untuk Membuat Presentasi yang Menarik dan Efektif.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 650.000,-</a>
+                                    <a href="#" class="text-primary fw-bold harga-teks">Rp 650.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -217,7 +218,7 @@
                                 <p class="fw-bold fs-5 card-title">Expert Ms Exel</p>
                                 <small class="card-text"> Kelas Microsoft Excel: Kuasai Pengolahan Data dari Awal hingga Lanjutan dengan Microsoft Excel. Pelajari untuk Membuat Spreadsheet yang Kompleks dan Analisis Data yang Efisien.</small>
                                 <div class="d-flex align-items-center justify-content-between p-1 mt-1" id="btn-transaksi-course">
-                                    <a href="#" class="text-primary fw-bold fs-5">Rp 550.000,-</a>
+                                    <a href="#" class="text-primary fw-bold harga-teks">Rp 550.000,-</a>
                                     <a href="/course" class="btn btn-secondary fw-medium">Beli Kelas</a>
                                 </div>
                             </div>
@@ -238,7 +239,7 @@
             <div class="row justify-content-center">
                 <div class="col-9 rounded p-3 shadow" id="card-email-promo">
                     <div class="row">
-                        <div class="col-lg-8" id="text-promo-email">
+                        <div class="col-lg-8 mb-1" id="text-promo-email">
                             <p class="fw-bold text-light m-0">Subscribe NaikKelas.id Untuk Informasi TerUpdate!</p>
                             <p class=" fw-normal text-light m-0" id="sub-promo-email">Masukan Email Anda dan Subscribe untuk mendapatkan semua informasi menarik dari Kami!</p>
                         </div>
@@ -313,29 +314,29 @@
       <div class="container ">
         <div class="row justify-content-center p-1">
           <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">
-            <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
-            <p id="tglTestimoni"><small>20 September 2024</small></p>
+            <p class="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
+            <p class="tglTestimoni"><small>20 September 2024</small></p>
             <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
               <p class="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
             </div>
           </div>
           <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">
-            <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
-            <p id="tglTestimoni"><small>20 September 2024</small></p>
+            <p class="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
+            <p class="tglTestimoni"><small>20 September 2024</small></p>
             <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
               <p class="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
             </div>
           </div>
           <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">
-            <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
-            <p id="tglTestimoni"><small>20 September 2024</small></p>
+            <p class="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
+            <p class="tglTestimoni"><small>20 September 2024</small></p>
             <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
               <p class="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
             </div>
           </div>
           <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5 text-secondary" data-aos="zoom-in-down" data-aos-duration="1000">
-            <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
-            <p id="tglTestimoni"><small>20 September 2024</small></p>
+            <p class="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
+            <p class="tglTestimoni"><small>20 September 2024</small></p>
             <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
               <p class="isiTestimoni">`Kelas Fullstack Laravel di NaikKelas.id sungguh luar biasa! Materi yang disampaikan dengan jelas dan instruktur yang ahli. Sangat merekomendasikan!`</p>
             </div>
@@ -346,7 +347,7 @@
 
   </section>
 
-  <section id="footer-bg-top" style="background-color: #1e1e33;">
+  <section id="footer-bg-top" style="background-color: #6C757D;">
     <footer>
       <div class="container">
         <div class="row">
@@ -354,7 +355,7 @@
                 <p class="fs-3 fw-medium text-white fst-italic" >NaikKelas.Id</p>
           </div>
           <div class="col-lg-5">
-            <p class="text-light fw-light ">NaikKelas.id: Kembangkan Diri, Capai Impian.</p>
+            <p class="text-light fw-light ">Contact Kami di Wa.me/6285868144268</p>
           </div>
           <div class="col-lg-7 text-end ">
             <p class="text-end text-light fw-lighter ">Connect With Us</p>

@@ -24,6 +24,9 @@
     height: 88vh;
 }
 
+.harga-teks{
+    font-size: 1rem;
+}
 #textHeaderP{
     font-size: 2.3rem;
 }
@@ -127,6 +130,10 @@
     #img-logo{
     width: 25vw;
     }
+
+    .harga-teks{
+    font-size: 0.7rem;
+}
     
 #imgHeader{
     background-image: url('/img/imgHeader.png');
@@ -145,6 +152,7 @@
     #textHeaderBtn{
         font-size: 0.7rem;
     }
+    
 
 #promo{
     margin-top: 15rem;
@@ -212,6 +220,9 @@
     top: 63%;
 }
 
+.tglTestimoni{
+    font-size: 0.7rem;
+}
 
     
 }

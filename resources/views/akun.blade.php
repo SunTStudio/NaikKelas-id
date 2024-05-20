@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Start Course | NaikKelas.id</title>
+    <title>Akun Saya| NaikKelas.id</title>
     <link rel="icon" href="/img/logo-browser.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/akun.css">
     <link rel="stylesheet" href="/css/preloader.css">
@@ -101,6 +101,32 @@
       </div>
     </section>
     {{-- profile --}}
+
+
+    <section id="footer-bg-top" class="mt-5" style="background-color: #6C757D;">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 pt-4">
+                <p class="fs-3 fw-medium text-white fst-italic" >NaikKelas.Id</p>
+          </div>
+          <div class="col-lg-5">
+            <p class="text-light fw-light ">Contact Kami di Wa.me/6285868144268</p>
+          </div>
+          <div class="col-lg-7 text-end ">
+            <p class="text-end text-light fw-lighter ">Connect With Us</p>
+            <img src="/img/sosmed/facebook.png" class="img-fluid me-1" alt="">
+            <img src="/img/sosmed/x.png" class="img-fluid me-1" alt="">
+            <img src="/img/sosmed/instagram.png" class="img-fluid me-1" alt="">
+            <img src="/img/sosmed/linkedin.png" class="img-fluid me-1" alt="">
+            <img src="/img/sosmed/youtube.png" class="img-fluid me-1" alt="">
+          </div>
+          <hr class="border border-white mt-1">
+          <p class="fw-lighter text-light mb-4">Copyright @ 2024 NaikKelas.id. All right reserved</p>
+        </div>
+      </div>
+    </footer>
+  </section>
     
     
 

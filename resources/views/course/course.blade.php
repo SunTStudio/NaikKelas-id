@@ -144,7 +144,7 @@
     {{-- Promo update email --}}
 
     {{-- footer --}}
-  <section id="footer-bg-top" style="background-color: #1e1e33;">
+  <section id="footer-bg-top" style="background-color: #6C757D;">
     <footer>
       <div class="container">
         <div class="row">
@@ -152,7 +152,7 @@
                 <p class="fs-3 fw-medium text-white fst-italic" >NaikKelas.Id</p>
           </div>
           <div class="col-lg-5">
-            <p class="text-light fw-light ">NaikKelas.id: Kembangkan Diri, Capai Impian.</p>
+            <p class="text-light fw-light ">Contact Kami di Wa.me/6285868144268</p>
           </div>
           <div class="col-lg-7 text-end ">
             <p class="text-end text-light fw-lighter ">Connect With Us</p>
